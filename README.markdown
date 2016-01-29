@@ -53,7 +53,7 @@ Basic sorts:
 
 Fast sorts:
 
-- Quicksort
+- [Quicksort](Quicksort/)
 - Merge Sort
 - Heap Sort
 
@@ -92,23 +92,21 @@ Second, it matters what particular operations you'll be performing most, as cert
 
 Often just using the built-in `Array`, `Dictionary`, and `Set` types is sufficient, but sometimes you may want something more fancy...
 
-### Arrays and lists
-
-Variations on arrays:
+### Variations on arrays
 
 - [Array2D](Array2D/). A two-dimensional array with fixed dimensions. Useful for board games.
 - [Fixed Size Array](Fixed Size Array/). When you know beforehand how large your data will be, it might be more efficient to use an array with a fixed size.
 - Ordered Array. An array that is always sorted.
 - Ring Buffer. Also known as a circular buffer. An array of a certain size that conceptually wraps around back to the beginning.
 
-Queues:
+### Queues
 
 - [Stack](Stack/). Last-in, first-out!
 - [Queue](Queue/). First-in, first-out!
 - Deque
 - Priority Queue
 
-Lists:
+### Lists
 
 - Singly Linked List
 - Doubly Linked List
@@ -123,7 +121,7 @@ Lists:
 - Splay Tree
 - Threaded Binary Tree
 - kd-Tree
-- Heap
+- [Heap](Heap/). A binary tree stored in an array, so it doesn't use pointers. Makes a great priority queue.
 - Fibonacci Heap
 - Trie
 
